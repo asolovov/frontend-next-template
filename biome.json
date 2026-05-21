@@ -62,14 +62,6 @@
   },
   "overrides": [
     {
-      "includes": ["**/src/components/features/**", "**/src/lib/**"],
-      "linter": {
-        "rules": {
-          "performance": { "noBarrelFile": "error" }
-        }
-      }
-    },
-    {
       "includes": ["**/*.test.ts", "**/*.test.tsx", "**/tests/**"],
       "linter": {
         "rules": {
